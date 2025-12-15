@@ -40,6 +40,7 @@ body {
 
 .social-link img {
     width: 20px;
+    height: 20px;
 }
 
 #about {
@@ -240,6 +241,8 @@ input[type="submit"] {
     background-color: #beb45a;
     padding: 0.5em 1em;
 }
+
+
 
 @media all and (max-width: 1180px) {
     .picture {
