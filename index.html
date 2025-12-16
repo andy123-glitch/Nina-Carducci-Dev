@@ -2,11 +2,23 @@
 <html lang="fr">
     <head>
         <title>Portfolio Nina</title>
-        <meta name="description" content="Porofoli de tnina Carducci" />
+        <meta name="description" content="Porofolio de Nina Carducci" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+
+        <meta property="og:title" content="Porofolio de Nina Carducci" />
+        <meta property="og:description" content="Une description concise et attractive pour les utilisateurs" />
+        <meta property="og:image" content="https://exemple.com/image.jpg" />
+        <meta property="og:url" content="https://exemple.com/page" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Titre de votre page" />
+        <meta name="twitter:description" content="Description attrayante" />
+        <meta name="twitter:image" content="https://exemple.com/image.jpg" />
+        <meta name="twitter:site" content="@votresite" />
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        
 
         <link
             rel="preload"
@@ -30,11 +42,37 @@
 
         <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
         <script src="./assets/scripts.js" defer></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
-        <script src="./assets/maugallery.min.js" ></script>
+        <script src="./assets/maugallery.min.js"></script>
 
+        <script type="application/ld+json" defer>
+            {
+                "@context": "https://schema.org",
+                "@type": "ProfessionalService",
+                "name": "Carducci",
+                "image": "",
+                "@id": "",
+                "url": "https://ninacarducci.github.io/",
+                "telephone": "05 56 67 78 89",
+                "priceRange": "300",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "68 avenue Alsace-Lorraine",
+                    "addressLocality": "Bordeaux.",
+                    "postalCode": "33200",
+                    "addressCountry": "FR"
+                },
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+                    "opens": "10:00",
+                    "closes": "19:00"
+                }
+            }
+        </script>
     </head>
     <body>
         <header class="top-header">
@@ -83,9 +121,8 @@
                             <img
                                 src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
                                 class="d-block w-100"
-                                alt="homme en costume traversant des lignes blanche" 
-                                fetchpriority="high"
-                                />
+                                alt="homme en costume traversant des lignes blanche"
+                                fetchpriority="high" />
                         </article>
                         <article class="carousel-item">
                             <img
@@ -95,7 +132,6 @@
                         </article>
                         <article class="carousel-item">
                             <img
-                                
                                 src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
                                 class="d-block w-100"
                                 alt="un clouple  mariée dansant entourée de personne" />
