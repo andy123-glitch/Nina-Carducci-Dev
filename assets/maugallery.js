@@ -147,17 +147,15 @@
         });
       }
       let index = 0,
-        next = null;
+        prev = null;
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i ;
+          index = i - 1;
         }
       });
-      next =
-        imagesCollection[index-1] ||
-        imagesCollection[0];
-      $(".lightboxImage").attr("src", $(next).attr("src"));
+      prev =imagesCollection[0]||imagesCollection[index];
+      $(".lightboxImage").attr("src", $(prev).attr("src"));
     },
     nextImage() {
       let activeImage = null;
@@ -195,7 +193,7 @@
 
         $(imagesCollection).each(function(i) {
           if ($(activeImage).attr("src") === $(this).attr("src")) {
-            index = i;
+            index = i+1;
           }
         });
 
