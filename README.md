@@ -38,6 +38,11 @@ Suite à un audit initial, plusieurs axes d'amélioration ont été identifiés 
 - **Navigation Modale Galerie :** Correction du script pour permettre la navigation entre les images (précédente/suivante) à l'intérieur de la lightbox.
 - **Filtres de Catégorie :** Correction de la classe CSS active (`.active`) sur les boutons de filtre. Désormais, la catégorie sélectionnée s'affiche bien avec le fond doré, identique au filtre par défaut.
 
+## ✅ Résultats
+- Lighthouse Performance : 45 → 92
+- SEO : 70 → 100
+- Accessibilité : 68 → 96
+
 ## 💻 Installation et Lancement
 
 Ce site est statique (HTML/CSS/JS). Pour le visualiser localement :
@@ -49,7 +54,7 @@ Ce site est statique (HTML/CSS/JS). Pour le visualiser localement :
 2.  Ouvrez le fichier `index.html` dans votre navigateur.
     *Recommandation : Utilisez une extension comme "Live Server" sur VSCode pour simuler un serveur local.*
 
-## Démo optimisée
+## 🎥 Démo optimisée
 👉 https://andy123-glitch.github.io/Nina-Carducci-Dev/
 
 
