@@ -49,6 +49,10 @@ Ce site est statique (HTML/CSS/JS). Pour le visualiser localement :
 2.  Ouvrez le fichier `index.html` dans votre navigateur.
     *Recommandation : Utilisez une extension comme "Live Server" sur VSCode pour simuler un serveur local.*
 
+## Démo optimisée
+👉 https://andy123-glitch.github.io/Nina-Carducci-Dev/
+
+
 ## 📊 Rapports d'intervention
 
 Un rapport détaillé avant/après est disponible, incluant :
